@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to our project</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: linear-gradient(rgba(0,0,0,0.750),rgba(0,0,0,0.50)),url(ccc.jpg);
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+            color: #ffffff; /* Text color for dark mode */
+            cursor: url('moo.png'), auto; /* Set custom cursor */
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #333; /* Dark background color for button */
+            color: #fff; /* Text color for button */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #555; /* Darker background color on hover */
+        }
+
+        nav {
+            background-color: #333; /* Background color for the navigation bar */
+            padding: 10px 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff; /* Text color for navigation links */
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h1>university system</h1>
+        <button class="button" onclick="window.location.href='inf.html'">Show Student Information</button>
+    </div>
+
+    <script>
+        function showStudentInfo() {
+            // Replace this with your code to show student information
+            alert('Student information will be displayed here.');
+        }
+    </script>
+</body>
+</html>
